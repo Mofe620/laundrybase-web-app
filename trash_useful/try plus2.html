@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Plus/Minus 2</title>
+<!--chat-->
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+
+<!--//chat-->
+</head>
+
+<body>
+
+<div class="shopping-cart">
+  <div class= "title">Shopping Bag</div>
+  
+  <div class="item">
+
+  <p>Unit Price: N<span id="unit">50</span>.00</p>
+
+Qty:<button id="minus" onclick="minus()">-</button>
+    <span id="input" >0</span>
+    <button id="plus" onclick="plus()">+</button>
+
+<p>Laundry Price:N<span id="total">0</span>.00</p>
+
+
+<!--chat-->
+
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
+
+<!--//chat-->
+
+<button onclick="hey()">Click Me</button><br><br>
+
+<img id="laundry" src="g2.jpg"><br><br>
+
+<input type="file">
+<a href="c1.jpg" download>Download</a>
+
+<button onclick="moveRight();">Start</button><button onclick="stopMove();">Stop</button>
+<script>
+
+var img = null;
+var animate;
+
+function init(){
+img = document.getElementById("laundry");
+img.style.position = 'relative';
+img.style.left = '0px';
+}
+
+function moveRight(){
+img.style.left = parseInt(img.style.left) + 10 + 'px';
+animate = setTimeout(moveRight,20);
+}
+
+function stopMove(){
+clearTimeout(animate);
+img.style.left = '50px';
+}
+
+window.onload = init;
+
+
+</script>
+<script>
+function hey(){
+var state = prompt("How are you doing?");
+document.write("You said" + state);
+}
+</script>
+<script>
+
+var input = 0;
+var inputDis = document.getElementById('input');
+var unit = document.getElementById('unit').innerHTML;
+
+function plus(){
+input++;
+inputDis.value = input;
+
+document.getElementById('input').innerHTML= inputDis.value;
+
+document.getElementById('total').innerHTML= unit * inputDis.value;
+  
+}
+
+function minus(){
+if (input > 0){
+input--;
+inputDis.value= input;
+
+document.getElementById('input').innerHTML= inputDis.value;
+
+document.getElementById('total').innerHTML= unit * inputDis.value;
+}
+
+}
+</script>

@@ -1,0 +1,52 @@
+/*services*/
+.r1b {
+    background: url(../images/g9.jpg)no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.r1a {
+    background-color: #ED4F2E;
+    padding: 3em;
+}
+
+.r2b {
+    background: url(../images/g8.jpg)no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.r2a {
+    background-color: #ff33ff;
+    padding: 3em;
+}
+
+.r3b {
+    background: url(../images/g7.jpg)no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.r3a {
+    background-color: #8fff33;
+    padding: 3em;
+}
+
+.row {
+    color: #ffffff;
+}
+
+.echo {
+margin: 0;
+border-style:dash;
+width:50px;
+}

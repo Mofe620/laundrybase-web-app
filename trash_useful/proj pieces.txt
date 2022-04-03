@@ -1,0 +1,341 @@
+
+<div class="jst-must-info">
+                  <div class="stats-info row">
+                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 stats-grid stats-grid-1">
+                        <div class="counter">3500</div>
+                        <div class="stat-info">
+                           <h4>Dry Cleaning Entries</h4>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 stats-grid stats-grid-2">
+                        <div class="counter">300</div>
+                        <div class="stat-info">
+                           <h4>Happy Clients</h4>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 stats-grid stats-grid-3">
+                        <div class="counter">10</div>
+                        <div class="stat-info">
+                           <h4><small>Years of </small>Experience</h4>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 stats-grid stats-grid-4">
+                        <div class="counter">60</div>
+                        <div class="stat-info">
+                           <h4>Dedicated Staff</h4>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="clearfix"></div>
+               </div>
+			   
+			   
+<section class="agile_stats text-center py-5">
+		<div class="container pt-sm-5">
+			<div class="stats_agile mb-sm-5 mb-3">
+				<h3 class="stat-title text-capitalize pb-md-5 pb-4">let us do your laundry</h3>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="counter pt-5 px-3 pb-3">
+						<i class="far fa-smile fa-2x"></i>
+						<div class="timer count-title count-number mt-2" data-to="5100" data-speed="1500"></div>
+						<p class="count-text text-capitalize">happy customers</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mt-md-0 mt-sm-5 mt-3">
+					<div class="counter  pt-5 px-3 pb-3">
+						<i class=" fab fa-stack-overflow fa-2x"></i>
+						<div class="timer count-title count-number mt-2" data-to="4783" data-speed="1500"></div>
+						<p class="count-text text-capitalize">dry clean</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mt-lg-0 mt-sm-5 mt-3">
+					<div class="counter  pt-5 px-3 pb-3">
+						<i class="fas fa-eraser fa-2x"></i>
+						<div class="timer count-title count-number mt-2" data-to="2184" data-speed="1500"></div>
+						<p class="count-text text-capitalize">ironing</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mt-lg-0  mt-sm-5 mt-3">
+					<div class="counter  pt-5 px-3 pb-3">
+						<i class="fas fa-exclamation fa-2x"></i>
+						<div class="timer count-title count-number mt-2" data-to="1084" data-speed="1084"></div>
+						<p class="count-text text-capitalize">stain removal</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<div class="form-check">
+							<label class="form-check-label col-form-label" for="l1">
+								<input type="radio" class="form-check-input" value="" id="l1">Wash& Fold
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label col-form-label" for="l2">
+								<input type="radio" class="form-check-input" value="" id="l2">Handwash
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label col-form-label" id="l3">
+								<input type="radio" class="form-check-input" value="" id="13">Dry Clean
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label col-form-label" for="l4">
+								<input type="radio" class="form-check-input" value="" id="l4">Carpets
+							</label>
+						</div>
+						
+	<!-- pricing -->
+	<section class="wthree-row py-md-5 pt-sm-5" id="pricing">
+		<div class="container py-md-5 py-3">
+			<h3 class="w3ls-title text-center text-capitalize pb-md-5 pb-4">pricing plans</h3>
+			<div class="row pb-5">
+				<div class="col-lg-3 col-md-6 text-center  pb-0 pt-3 px-3 agile-pricegrid">
+					<div class="bg-price py-sm-3 rounded-top text-center">
+						<h4>Basic</h4>
+						<span class="mx-auto my-2"></span>
+					</div>
+					<div class="p-3">
+						<h5 class="pt-2">
+							<sup>N</sup>39</h5>
+						<span>per month</span>
+					</div>
+					<ul class="list-group-flush" style="text-align:left;">
+						<li class="list-group-item">Blouses <span style="color:orange;">N200.00</span></li>
+						<li class="list-group-item">Skirts <span style="color:orange;">N200.00</span></li>
+						<li class="list-group-item">Trousers <span style="color:orange;">N150.00</span></li>
+						<li class="list-group-item">Suits & Blazers <span style="color:orange;">N500.00</span></li>
+						<li class="list-group-item">Jackets & Sweaters <span style="color:orange;">N400.00</span></li>
+						<li class="list-group-item">Children Clothing <span style="color:orange;">N160.00</span></li>
+					</ul>
+					<div class="py-3 px-2">
+						<button type="button" class="btn btn-info btn-lg btn-block text-md-center" data-toggle="modal" aria-pressed="false" data-target="#LaundryModal">Get Started</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 text-center pb-0 pt-3 px-3 agile-pricegrid">
+					<div class="bg-price py-sm-3 rounded-top text-center">
+						<h4>Regular</h4>
+						<span class="mx-auto my-2"></span>
+					</div>
+					<div class="p-3">
+						<h5 class="pt-2">
+							<sup>N</sup>69</h5>
+						<span>per month</span>
+					</div>
+					<ul class="list-group-flush">
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+					</ul>
+					<div class="py-3 px-2">
+						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" aria-pressed="false" data-target="#LaundryModal">Get Started</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 text-center p-3  agile-pricegrid">
+					<div class="bg-price py-sm-3 rounded-top text-center">
+						<h4>Mega</h4>
+						<span class="mx-auto my-2"></span>
+					</div>
+					<div class="p-3">
+						<h5 class="pt-2">
+							<sup>N</sup>99</h5>
+						<span>per month</span>
+					</div>
+					<ul class="list-group-flush">
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+					</ul>
+					<div class="py-3 px-2">
+						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" aria-pressed="false" data-target="#LaundryModal">Get Started</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 text-center pb-0 pt-3 px-3 agile-pricegrid">
+					<div class="bg-price py-sm-3 rounded-top text-center">
+						<h4>Combo</h4>
+						<span class="mx-auto my-2"></span>
+					</div>
+					<div class="p-3">
+						<h5 class="pt-2">
+							<sup>N</sup>199</h5>
+						<span>per month</span>
+					</div>
+					<ul class="list-group-flush">
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+						<li class="list-group-item"></li>
+					</ul>
+					<div class="py-3 px-2">
+						<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" aria-pressed="false" data-target="#LaundryModal">Get Started</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //pricing -->
+	
+	
+	<table class="table table-bordered table-responsive">
+                    <tbody>
+                        <tr>
+                            <td><b>Laundry</b></td>
+                            <td><b>Wash &amp; Iron</b></td>
+                            <td><b>Iron Only</b></td>
+                        </tr>
+                        <tr>
+                            <td>Regular Laundry</td>
+                            <td>starting at <span style="color: #48b8e7;">N300.00</span></td>
+                            <td>starting at <span style="color: #48b8e7;">N175.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Corporate Laundry</td>
+                            <td>starting at <span style="color: #48b8e7;">N400.00</span></td>
+                            <td>starting at <span style="color: #48b8e7;">N225.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Trads &amp; Natives</td>
+                            <td>starting at <span style="color: #48b8e7;">N350.00</span></td>
+                            <td>starting at <span style="color: #48b8e7;">N200.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Beddings</td>
+                            <td>starting at <span style="color: #48b8e7;">N250.00</span></td>
+                            <td>starting at <span style="color: #48b8e7;">N250.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Household</td>
+                            <td>starting at <span style="color: #48b8e7;">N450.00</span></td>
+                            <td>starting at <span style="color: #48b8e7;">N450.00</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+				
+				
+				
+				
+				<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- gallery css -->
+	<link rel="stylesheet" href="css/swipebox.css">
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<!-- font-awesome icons -->
+	<link href="css/fontawesome-all.min.css" rel="stylesheet">
+	<!-- //Custom Theme files -->
+	<!--webfonts-->
+	<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+	    rel="stylesheet">
+	<!--//webfonts-->
+	
+	
+	<script>
+
+var input = 0;
+var inputDis = document.getElementById('input');
+var unit = parseInt(document.getElementById('unit').innerHTML);
+var del_fee= parseInt(document.getElementById("del").innerHTML);
+var totalDis = parseInt(document.getElementById("total").innerHTML);
+
+function plus(){
+input++;
+inputDis.value = input;
+totalDis.value = total;
+
+document.getElementById('input').innerHTML= inputDis.value;
+
+document.getElementById('LaundryFee').innerHTML= unit * inputDis.value;
+
+document.getElementById("total").innerHTML= totalDis.value + unit;
+
+
+}
+
+function minus(){
+if (input > 0){
+input--;
+inputDis.value= input;
+
+document.getElementById('input').innerHTML= inputDis.value;
+
+document.getElementById('LaundryFee').innerHTML= unit * inputDis.value;
+
+document.getElementById("total").innerHTML= (unit * inputDis.value) + del_fee;
+
+}
+
+}
+
+
+/*function plus0(){
+	var unit0 = document.getElementById('unit0').innerHTML;
+input++;
+inputDis.value = input;
+
+document.getElementById('input0').innerHTML= inputDis.value;
+
+document.getElementById('LaundryFee').innerHTML= unit * inputDis.value;
+
+document.getElementById("total").innerHTML= (unit0 * inputDis.value) + del_fee;
+  
+}
+
+function minus0(){
+	var unit0 = document.getElementById('unit0').innerHTML;
+if (input > 0){
+input--;
+inputDis.value= input;
+
+document.getElementById('input0').innerHTML= inputDis.value;
+
+document.getElementById('LaundryFee').innerHTML= unit * inputDis.value;
+
+document.getElementById("total").innerHTML= (unit0 * inputDis.value) + del_fee;
+
+}
+
+}*/
+
+
+
+</script>
+
+
+
+<!--alert modal-->
+	  
+	  <div class="modal fade" id="alert" role="dialog">
+    <div class="modal-dialog">
+	
+	<div class="modal-content">
+	
+	<div class="modal-header">
+	   <h4 class="modal-title" >Hurray!</h4>
+	   <button class="close" data-dismiss="modal">&divide;</button>
+	</div>
+	
+	<div class="modal-body">
+	   <p>Cheers! You've Requested Laundry Service. Our PickUP Staff will be with you shortly.
+	   </p>
+	</div>
+	
+	<div class="modal-footer">
+	    <button  data-dismiss="modal">Close</button>
+    </div>
+	
+	<!--//alert modal-->
+	

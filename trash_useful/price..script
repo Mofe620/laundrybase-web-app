@@ -1,0 +1,68 @@
+<script>
+
+var input = 0;
+var input0 = 0;
+var inputDis = document.getElementById('input');
+var unit = document.getElementById('unit').innerHTML;
+var unit0 = document.getElementById('unit0').innerHTML;
+var del_fee= parseInt(document.getElementById("del").innerHTML);
+
+function plus(){
+input++;
+inputDis.value = input;
+
+document.getElementById('input').innerHTML= inputDis.value;
+
+document.getElementById('LaundryFee').innerHTML= unit * inputDis.value;
+
+document.getElementById("total").innerHTML= (unit * inputDis.value) + del_fee;
+  
+}
+
+function minus(){
+if (input > 0){
+input--;
+inputDis.value= input;
+
+document.getElementById('input').innerHTML= inputDis.value;
+
+document.getElementById('LaundryFee').innerHTML= unit * inputDis.value;
+
+document.getElementById("total").innerHTML= (unit * inputDis.value) + del_fee;
+
+}
+
+}
+
+
+function plus0(){
+input0++;
+inputDis.value = input0;
+
+document.getElementById('input0').innerHTML= inputDis.value;
+
+document.getElementById('LaundryFee').innerHTML= unit0 * inputDis.value;
+
+document.getElementById("total").innerHTML= (unit0 * inputDis.value) + del_fee;
+  
+}
+
+function minus0(){
+	var unit0 = document.getElementById('unit0').innerHTML;
+if (input > 0){
+input--;
+inputDis.value= input;
+
+document.getElementById('input0').innerHTML= inputDis.value;
+
+document.getElementById('LaundryFee').innerHTML= unit0 * inputDis.value;
+
+document.getElementById("total").innerHTML= (unit0 * inputDis.value) + del_fee;
+
+}
+
+}
+
+
+
+</script>

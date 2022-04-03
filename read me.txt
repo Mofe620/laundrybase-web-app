@@ -1,0 +1,12 @@
+LaundryBase Login info
+-----------------
+Admin:
+Username - Mike
+Password - mike34
+
+Client:
+Username - Anna
+Password - anna94
+
+Username - Gabriel
+Password - gaby24
