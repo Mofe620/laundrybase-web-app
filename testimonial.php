@@ -59,7 +59,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="team.php">Our Team</a>
-								<a class="dropdown-item" href="pricing.php">Order Laundry</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="testimonial.php">Testimonials</a>
 							</div>
@@ -98,7 +97,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 								<h6 class="mt-3 text-white">Emeka Okaka</h6>
 							</div>
 							<div class="test-review test-tooltip1">
-								<p class="mx-auto mt-3 ">
+								<p class="mx-auto mt-3 text-white">
 									<i class="fa fa-quote-left" aria-hidden="true"></i> Amazing Service. Spares me some extra hours on weekends with assurance of a properly done laundry.
 									<i class="fa fa-quote-right" aria-hidden="true"></i>
 								</p>
@@ -140,8 +139,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                   <div class="gap-one">
                      <div class="client-text">
                         <div class="clt-syas-agile">
-                           <h5>Uche Martins</h5>
-                           <p>Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit</p>
+                           <h5 style="font-weight: bold;">Uche Martins</h5>
+                           <p style="font-size: 1.1rem;">Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit</p>
                         </div>
                         <div class="img-text">
                            <img src="images/...jpg" alt="">
@@ -153,8 +152,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                   <div class="gap-two">
                      <div class="client-text ">
                         <div class="clt-syas-agile">
-                           <h5>Mary Uchechi</h5>
-                           <p>Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit</p>
+                           <h5 style="font-weight: bold;">Mary Uchechi</h5>
+                           <p style="font-size: 1.1rem;">Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit</p>
                         </div>
                         <div class="img-text">
                            <img src="images/...jpg" alt="">
@@ -166,8 +165,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                   <div class="gap-three">
                      <div class="client-text ">
                         <div class="clt-syas-agile">
-                           <h5>Dan Ambrose</h5>
-                           <p>Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit </p>
+                           <h5 style="font-weight: bold;">Dan Ambrose</h5>
+                           <p style="font-size: 1.1rem;">Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit </p>
                         </div>
                         <div class="img-text">
                            <img src="images/...jpg" alt="">
@@ -179,8 +178,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                   <div class="gap-four">
                      <div class="client-text ">
                         <div class="clt-syas-agile">
-                           <h5>Kelly son</h5>
-                           <p>Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit </p>
+                           <h5 style="font-weight: bold;">Kelly son</h5>
+                           <p style="font-size: 1.1rem;">Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit </p>
                         </div>
                         <div class="img-text">
                            <img src="images/...jpg" alt="">
@@ -192,8 +191,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                   <div class="gap-five">
                      <div class="client-text ">
                         <div class="clt-syas-agile">
-                           <h5>Sola Akinfenwa</h5>
-                           <p>Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit</p>
+                           <h5 style="font-weight: bold;">Sola Akinfenwa</h5>
+                           <p style="font-size: 1.1rem;">Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit</p>
                         </div>
                         <div class="img-text">
                            <img src="images/...jpg" alt="">
@@ -205,8 +204,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                   <div class="gap-four"><!--six-->
                      <div class="client-text">
                         <div class="clt-syas-agile ">
-                           <h5>Rose Mgbegbu</h5>
-                           <p>Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit</p>
+                           <h5 style="font-weight: bold;">Rose Mgbegbu</h5>
+                           <p style="font-size: 1.1rem;">Aenean pulvinar diam vel felis volutpat dictum, suscipit sapien scelerisque tempus non mollis massa. Aenean ac tellus suscipit</p>
                         </div>
                         <div class="img-text">
                            <img src="images/...jpg" alt="">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 24, 2021 at 05:14 AM
+-- Generation Time: Aug 10, 2022 at 08:30 AM
 -- Server version: 8.0.21
 -- PHP Version: 7.3.21
 
@@ -69,19 +69,20 @@ CREATE TABLE IF NOT EXISTS `clients` (
   `RETURN` text NOT NULL,
   `STATUS` int NOT NULL DEFAULT '0',
   PRIMARY KEY (`O-ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `clients`
 --
 
 INSERT INTO `clients` (`O-ID`, `NAME`, `EMAIL`, `PNUMBER`, `ADDRESS`, `PICKUP`, `ITEMS`, `SERVICE`, `PAYMENT`, `RETURN`, `STATUS`) VALUES
-(13, 'Madrens', 'madd@yahoo.com', '0908764567', '29, Rainbow Avenue', '01/26/2019', '4 Trousers', 'Only Iron', 4500, '01/28/2019', 2),
+(13, 'Madrens', 'madd@yahoo.com', '0908764567', '29, Rainbow Avenue', '01/26/2019', '4 Trousers', 'Only Iron', 4500, '01/28/2019', 0),
 (24, 'Henry Ford', 'mo627@gmail.com', '07031456432', '17, Ford Lane', '01/22/2019', '2 Suits, 4 pairs of Socks, ', 'Wash and Fold', 2350, '01/28/2019', 3),
 (32, 'Stanley', 'stan24@yahooo.com', '09076213421', '21 Zenith Avenue', '01/30/2019', '6 Shirts, 4 Trousers, 1 Towel', 'Dry Clean', 2700, '02/02/2019', 3),
 (33, 'Jovita', 'jovi77@yahoo.com', '08012345432', '27, Alada Road', '01/30/2019', '6 Blouses, 4 Skirts', 'Wash and Fold', 2600, '02/02/2019', 3),
 (34, 'Michael', 'michy66@gmail.com', '09034567243', '99, Ben-Clarks Rd.', '01/31/2019', '3 Trousers, 4 Shirts', 'Wash and Fold', 1400, '02/04/2019', 2),
-(35, 'Daniel Jay', 'dan47@gmail.com', '08086826664', '14, Sevenson Rd.', '01/31/2019', '4 Shirts, 3 Trousers', 'Dry Clean', 4000, '02/03/2019', 2);
+(35, 'Daniel Jay', 'dan47@gmail.com', '08086826664', '14, Sevenson Rd.', '01/31/2019', '4 Shirts, 3 Trousers', 'Dry Clean', 4000, '02/03/2019', 2),
+(36, 'Mofe Afinotan', 'moflux60@gmail.com', '876896588', '2, Ken-Zizo Layout', '08/17/2022', '3Shirts2Skirts3Trousers2Children Wears', 'Wash and Fold', 3600, '08/24/2022', 0);
 
 -- --------------------------------------------------------
 
@@ -139,7 +140,34 @@ INSERT INTO `notifications` (`NAME`, `SERVICE`, `TIME`, `VIEW`) VALUES
 ('Stanley', 'Dry Clean', '2019-01-29 08:01:41', 1),
 ('Jovita', 'Wash and Fold', '2019-01-29 08:19:40', 1),
 ('Michael', 'Wash and Fold', '2019-01-30 09:12:02', 1),
-('Daniel Jay', 'Dry Clean', '2019-01-30 10:12:09', 1);
+('Daniel Jay', 'Dry Clean', '2019-01-30 10:12:09', 1),
+('Mofe Afinotan', 'Wash and Fold', '2022-08-10 09:26:50', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `prices`
+--
+
+DROP TABLE IF EXISTS `prices`;
+CREATE TABLE IF NOT EXISTS `prices` (
+  `ITEMS` text NOT NULL,
+  `W-F` int NOT NULL,
+  `IRON` int NOT NULL,
+  `D-C` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `prices`
+--
+
+INSERT INTO `prices` (`ITEMS`, `W-F`, `IRON`, `D-C`) VALUES
+('Shirts', 400, 200, 400),
+('Skirts', 300, 200, 300),
+('Trousers', 400, 200, 400),
+('Blouses', 300, 200, 400),
+('Suits and Blazers', 600, 400, 700),
+('Children Wears', 300, 300, 400);
 
 -- --------------------------------------------------------
 

@@ -45,6 +45,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<link rel="stylesheet" href="css/swipebox.css">
 	<!-- Custom CSS -->
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="css/logged-in.css" rel='stylesheet' type='text/css' />
 	<!-- font-awesome icons -->
 	<link href="css/fontawesome-all.min.css" rel="stylesheet">
 	<!-- //Custom Theme files -->

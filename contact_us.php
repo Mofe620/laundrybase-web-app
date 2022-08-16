@@ -60,7 +60,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="team.php">Our Team</a>
-								<a class="dropdown-item" href="pricing.php">Order Laundry</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="testimonial.php">Testimonials</a>
 							</div>

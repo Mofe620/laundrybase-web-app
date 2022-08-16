@@ -80,6 +80,7 @@ VALUES ('$name','$email','$number','$address', '$items', '$pickup', '$service', 
 
    
 if ($conn->query($sql) === TRUE) {
+	
 	} else { echo mysqli_error($conn);
 	//die();
 }
@@ -319,9 +320,9 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<!-- header -->
 	<header>
 		<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand" href="index.php">
-					<i class="fab fa-empire"><h1>LaundryBase</h1></i>
+			<nav class="navbar navbar-expand-lg navbar-light py-4">
+				<a class="navbar-brand" style="display: block; align-items:center;" href="index.php">
+					<h1 style="color: #000066;">LaundryBase</h1>
 				</a>
 				<button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 				    aria-expanded="false" aria-label="Toggle navigation">
@@ -342,7 +343,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="team.php">Our Team</a>
-								<a class="dropdown-item" href="pricing.php">Order Laundry</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="testimonial.php">Testimonials</a>
 							</div>
@@ -357,7 +357,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<a class="nav-link" href="#login" data-toggle="modal" data-target="#login">Login</a>
 						</li>
 					</ul>
-					<button type="button" class="btn btn-info btn-lg-block w3ls-btn px-4 text-uppercase font-weight-bold"  data-toggle="modal"
+					<button type="button" style="margin-left: 7.5em;" class="btn btn-info w3ls-btn px-4 text-uppercase font-weight-bold"  data-toggle="modal"
 					    aria-pressed="false" data-target="#LaundryModal">
 						PickUp
 					</button>
@@ -793,7 +793,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	
 	<!--LOGIN-->
 			   
-			  <div class="modal fade" id="login">
+<div class="modal fade" id="login">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -981,13 +981,13 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	</script>
 	
 	<script>
-	$.ajax({
-		type: "POST",
-		url: "index.php",
-		success: function(){
-			$("#successModal").modal('show');
-		}
-	})
+	// $.ajax({
+	// 	type: "POST",
+	// 	url: "index.php",
+	// 	success: function(){
+	// 		$("#successModal").modal('show');
+	// 	}
+	// })
 	</script> -->
 
 	

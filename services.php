@@ -22,8 +22,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<!-- gallery css -->
 	<link rel="stylesheet" href="css/swipebox.css">
 	<!-- Custom CSS -->
-	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<link href="css/serv.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<!-- font-awesome icons -->
 	<link href="css/fontawesome-all.min.css" rel="stylesheet">
 	<!-- //Custom Theme files -->
@@ -60,7 +60,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="team.php">Our Team</a>
-								<a class="dropdown-item" href="pricing.php">Order Laundry</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="testimonial.php">Testimonials</a>
 							</div>
@@ -87,7 +86,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
 	<h1 style="text-align:center;">Our Services</h1>
 	
-	<button data-toggle="modal" data-target="#trackLaundry" class="btn btn-info"> Track Laundry Status</button>
+	<button data-toggle="modal" data-target="#trackLaundry" style="margin:20px auto 10px; display:block;" class="btn btn-info"> Track Laundry Status</button>
 	<br><br><br>
 
 	<div class="row">
@@ -189,7 +188,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				    <div class="col-sm-offset-3 col-sm-9">
 				      <input type="submit" name="track" class="btn btn-primary" value="View Laundry Status">
 				    </div>
-					<iframe src="" name="iframe" class="h-50"></iframe>
+					<iframe src="" name="iframe" style="width:92%; margin:10px; border:none; height:30px;"></iframe>
 				  </div>
 				</form>
 			</div>

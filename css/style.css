@@ -272,7 +272,6 @@ ul.callbacks_tabs {
 }
 
 .rslides li {
-    -webkit-backface-visibility: hidden;
     position: absolute;
     display: none;
     left: 0%;
@@ -922,7 +921,6 @@ ul.portfolio-area li figure {
 /*-- testimonials--*/
 
 .testi-agile {
-    background: ;
     background-size: cover;
     background-attachment: fixed;
 }
