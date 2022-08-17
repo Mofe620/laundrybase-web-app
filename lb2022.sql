@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Aug 10, 2022 at 08:30 AM
+-- Generation Time: Aug 17, 2022 at 08:43 AM
 -- Server version: 8.0.21
 -- PHP Version: 7.3.21
 
@@ -155,7 +155,7 @@ CREATE TABLE IF NOT EXISTS `prices` (
   `W-F` int NOT NULL,
   `IRON` int NOT NULL,
   `D-C` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `prices`

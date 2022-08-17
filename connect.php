@@ -7,7 +7,7 @@
 // define("DB_PASS", "");// database password
 // define("DB_NAME", "lb");// database name
 
-// // Create connection NOTE: Always in this order
+// Create connection NOTE: Always in this order
 // $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 // Because of ClearDB with Heroku

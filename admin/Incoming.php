@@ -389,7 +389,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 		
 		if (okay <= select){ document.getElementById("notice").innerHTML = ""}
 		
-*      document.getElementById("datepicker2").value= pick;
+        document.getElementById("datepicker2").value= pick;
 	
 	}
 	</script>
