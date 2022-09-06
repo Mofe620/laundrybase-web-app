@@ -1,6 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #000066;
+}
+header {
+    background-color: #fff;
+}
+div.hero {
+    background-image: url(../images/j2.jpg);
+    background-size: cover;
+    background-position: 0% 0%;
+    background-attachment: fixed;
+    min-height: 40vh;
+}
+div.price_list {
+    background-color: #fff;
+    font-weight: 500;
+}
+table {
+    padding: 1em;
+}
+thead {
+    color: #0D898D;
+}
+tbody {
+    color: #0D898D;
+}
+@media (max-width: 1440px) {
+    #bootstrap-overrides .row-2 {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #bootstrap-overrides .col-sm-4 {
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+    #bootstrap-overrides .panel {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    #bootstrap-overrides .price-table {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+}
 @media (max-width: 400px) {
     #bootstrap-overrides .p-5 {
         padding: 1rem !important;
+    }
+    div.hero {
+        background-image: url(../images/okay/g2.jpg);
+        background-size: cover;
+        background-position: 20% 0%;
+        background-attachment: fixed;
     }
     .estimate-btn-group {
         flex-direction: column;

@@ -40,7 +40,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<a class="navbar-brand" href="index.php">
-					<i class="fab fa-empire"><h1>LaundryBase</h1></i>
+					<i class="fab fa-empire"></i><h1>LaundryBase</h1>
 				</a>
 				<button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 				    aria-expanded="false" aria-label="Toggle navigation">
@@ -241,7 +241,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<!-- copyright -->
-			<div class="cpy-right text-center pt-5">
+			<div class="fv3-contact cpy-right text-center pt-5">
 				<p>© 2018 LaundryBase.
 					<a href="http://w3layouts.com" style="visibility:hidden;"> W3layouts.</a> All Rights Reserved
 				</p>

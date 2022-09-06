@@ -28,8 +28,7 @@ if ($result->num_rows > 0) {
 	    $_SESSION['fname'] =$row['FNAME'];
 	    $_SESSION['lname'] =$row['LNAME'];
       	$_SESSION['pnumber'] =$row['PNUMBER'];
-		$_SESSION['userid']= $row['ID'];
-		$userid=$row['ID'];
+		$_SESSION['admin_id']= $row['ID'];
 		$_SESSION['username']= $row['USERNAME'];
 		$_SESSION['email']= $row['EMAIL'];
 		

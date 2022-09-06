@@ -320,9 +320,10 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<!-- header -->
 	<header>
 		<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-light py-4">
-				<a class="navbar-brand" style="display: block; align-items:center;" href="index.php">
-					<h1 style="color: #000066;">LaundryBase</h1>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="index.php">
+					<i class="fab fa-empire"></i><h1>LaundryBase</h1>
+				</a>
 				</a>
 				<button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 				    aria-expanded="false" aria-label="Toggle navigation">
@@ -582,7 +583,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 								<label for="contactcomment">Your Message</label>
 								<textarea class="form-control" rows="5" id="contactcomment" name="message" required></textarea>
 							</div>
-							<input type = "submit" class=" btn btn-success" value="Send">
+							<input type = "submit" class=" btn btn-info" value="Send">
 						</form>
 					</div>
 					<!--  //contact form grid ends here -->
@@ -663,7 +664,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<!-- copyright -->
-			<div class="cpy-right text-center pt-5">
+			<div class="fv3-contact cpy-right text-center pt-5">
 				<p>© 2018 LaundryBase. 
 					<a href="http://w3layouts.com" style="visibility:hidden;"> W3layouts.</a>All Rights Reserved
 				</p>

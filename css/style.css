@@ -35,7 +35,7 @@ h6 {
 p {
     line-height: 1.8;
     font-size: 1em;
-    color: #000;
+    color: #154c83;
 }
 
 ul {
@@ -55,8 +55,19 @@ body a:hover {
 
 /* header */
 
-header h1 {
-    line-height: 0;
+
+#bootstrap-overrides a.navbar-brand {
+    display: flex !important;
+    align-items: center;
+    color: #000066;
+    margin-left: -1em;
+}
+#bootstrap-overrides header h1 {
+    font-size: 2rem !important;
+    margin-left: 0.25em;
+}
+#bootstrap-overrides button.navbar-toggler {
+    margin-right: -1em;
 }
 
 a.navbar-brand i {
@@ -388,6 +399,8 @@ h1.ab-title {
 
 .lead {
     line-height: 2;
+    color: #0d898d;
+    font-weight: 500;
 }
 
 h3.w3ls-title {
@@ -416,7 +429,7 @@ div#agileits-services {
 
 .agileits-services-grids h4 {
     font-size: 1.5em;
-    color: #000;
+    color: #000066;
     line-height: 1.5em;
     font-weight: 600;
 }
@@ -448,7 +461,7 @@ div#agileits-services {
 /* about */
 
 h3.agile-title {
-    color: #000;
+    color: #fff !important;
     font-size: 3em;
     line-height: 36px;
     font-weight: 400;
@@ -930,10 +943,6 @@ ul.portfolio-area li figure {
     letter-spacing: 1px;
 }
 
-.test-review p {
-    max-width: 500px;
-}
-
 .img-agile i {
     font-size: 3em;
     color: #0076be;
@@ -1102,7 +1111,7 @@ p.c-txt {
 
 .contact-top1 .form-group label,
 form.f-color .form-control {
-    color: #000;
+    color: #000066;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -1628,13 +1637,26 @@ h5.modal-title {
 }
 
 /*--clients--*/
+.fa-user:before {
+    content: "\f007";
+    color: #009999;
+}
+.cly-name {
+    color: #009999;
+}
+.cly-text {
+    color: #7c7a7a;
+    font-weight: 500;
+}
+.fa-quote-left:before, .fa-quote-right:before {
+    color: #007b;
+} 
 .client-text {
     padding: 2em;
 	    -webkit-box-shadow: -1px -2px 25px -4px rgba(0,0,0,0.57);
     -moz-box-shadow: -1px -2px 25px -4px rgba(0,0,0,0.57);
-    box-shadow: -1px -2px 25px -4px rgba(0,0,0,0.57);
-	background-color:#6699ff;
-
+    box-shadow: -1px -2px 12px -4px rgba(0,0,0,0.57);
+	background-color:#fff;
 }
 .img-text img {
     border-radius: 50%;
@@ -1644,7 +1666,7 @@ h5.modal-title {
     -ms-border-radius: 50%;
 }
 .clt-syas-agile p {
-    color: #ccccff; /*676767*/
+    color: #0d898d; /*676767*/
     line-height: 28px;
     letter-spacing: 1.5px;
     padding: 12px 0px;

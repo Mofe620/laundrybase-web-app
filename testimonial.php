@@ -39,7 +39,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<a class="navbar-brand" href="index.php">
-					<i class="fab fa-empire"><h1>LaundryBase</h1></i>
+					<i class="fab fa-empire"></i><h1>LaundryBase</h1>
 				</a>
 				<button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 				    aria-expanded="false" aria-label="Toggle navigation">
@@ -94,10 +94,10 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 						<div class="item-owl text-center">
 							<div class="img-agile">
 								<i class="fas fa-user"></i>
-								<h6 class="mt-3 text-white">Emeka Okaka</h6>
+								<h6 class="mt-3 cly-name">Emeka Okaka</h6>
 							</div>
 							<div class="test-review test-tooltip1">
-								<p class="mx-auto mt-3 text-white">
+								<p class="mx-auto mt-3 cly-text">
 									<i class="fa fa-quote-left" aria-hidden="true"></i> Amazing Service. Spares me some extra hours on weekends with assurance of a properly done laundry.
 									<i class="fa fa-quote-right" aria-hidden="true"></i>
 								</p>
@@ -106,10 +106,10 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 						<div class="item-owl">
 							<div class="img-agile">
 								<i class="fas fa-user"></i>
-								<h6 class="mt-3 text-white">Mary Samson</h6>
+								<h6 class="mt-3 cly-name">Mary Samson</h6>
 							</div>
 							<div class="test-review test-tooltip1">
-								<p class="mx-auto mt-3 text-white">
+								<p class="mx-auto mt-3 cly-text">
 									<i class="fa fa-quote-left" aria-hidden="true"></i> Timely and Courteous Staff. Well impressed.
 									<i class="fa fa-quote-right" aria-hidden="true"></i>
 								</p>
@@ -118,10 +118,10 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 						<div class="item-owl">
 							<div class="img-agile">
 								<i class="fas fa-user"></i>
-								<h6 class="mt-3 text-white">James Uchechi</h6>
+								<h6 class="mt-3 cly-name">James Uchechi</h6>
 							</div>
 							<div class="test-review test-tooltip1">
-								<p class="mx-auto mt-3 text-white">
+								<p class="mx-auto mt-3 cly-text">
 									<i class="fa fa-quote-left" aria-hidden="true"></i> Amazing Service! Felt like i just got some new clothes.
 									<i class="fa fa-quote-right" aria-hidden="true"></i>
 								</p>
@@ -274,7 +274,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<!-- copyright -->
-			<div class="cpy-right text-center pt-5">
+			<div class="fv3-contact cpy-right text-center pt-5">
 				<p>© 2018 LaundryBase.
 					<a href="http://w3layouts.com" style="visibility:hidden;"> W3layouts.</a> All Rights Reserved
 				</p>
