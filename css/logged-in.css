@@ -1,5 +1,5 @@
 @media (max-width: 400px) {
-    #bootstrap-override .p-5 {
+    #bootstrap-overrides .p-5 {
         padding: 1rem !important;
     }
     .estimate-btn-group {
