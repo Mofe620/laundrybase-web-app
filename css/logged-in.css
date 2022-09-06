@@ -1,0 +1,11 @@
+@media (max-width: 400px) {
+    #bootstrap-override .p-5 {
+        padding: 1rem !important;
+    }
+    .estimate-btn-group {
+        flex-direction: column;
+    }
+    .estimate-btn-group button {
+        margin: 0.5em;
+    }
+}

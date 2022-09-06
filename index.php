@@ -316,7 +316,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<!--//webfonts-->
 </head>
 
-<body>
+<body id="bootstrap-overrides">
 	<!-- header -->
 	<header>
 		<div class="container">
@@ -357,7 +357,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<a class="nav-link" href="#login" data-toggle="modal" data-target="#login">Login</a>
 						</li>
 					</ul>
-					<button type="button" style="margin-left: 7.5em;" class="btn btn-info w3ls-btn px-4 text-uppercase font-weight-bold"  data-toggle="modal"
+					<button type="button" id="orderBtn" style="margin-left: 7.5em;" class="btn btn-info w3ls-btn px-4 text-uppercase font-weight-bold"  data-toggle="modal"
 					    aria-pressed="false" data-target="#LaundryModal">
 						PickUp
 					</button>
@@ -988,7 +988,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	// 		$("#successModal").modal('show');
 	// 	}
 	// })
-	</script> -->
+	</script>
 
 	
 </body>

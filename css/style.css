@@ -1535,6 +1535,22 @@ h5.modal-title {
 }
 
 @media screen and (max-width: 414px) {
+    #bootstrap-overrides ul.navbar-nav {
+        margin-top: 1em !important;
+    }
+    #bootstrap-overrides a.nav-link {
+        display: flex !important;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    #bootstrap-overrides li.nav-item.mr-3 {
+        margin-right: 0em !important;
+    }
+    #bootstrap-overrides button#orderBtn {
+        width: 40% !important;
+        margin-left: 30% !important;
+    }
     h1.ab-title {
         font-size: 1.6em;
     }
