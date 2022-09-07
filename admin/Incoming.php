@@ -4,7 +4,7 @@ include ("connect.php");
 
 
 //prevent going back after logging out!
-if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
+if (!isset($_SESSION['admin_id']) || (trim ($_SESSION['admin_id']) == '')){
 	
 	header("location: login.php");
 	?>
@@ -15,7 +15,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 
 
 
-    $id=$_SESSION['userid'];
+    $id=$_SESSION['admin_id'];
 	$fname=$_SESSION['fname'];
 	$lname=$_SESSION['lname'];
 	$username=$_SESSION['username'];
@@ -44,6 +44,13 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 	<!-- ICONS -->
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<style>
+		@media (max-width:400px) {
+			.col-md-12 {
+				padding: 1em 0em !important;
+			}
+		}
+	</style>
 </head>
 
 <body>
@@ -63,9 +70,11 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 				
 				<!-- MODAL BUTTONS -->
 				<form action="request_action.php" method="post" enctype="multipart/form-data">
-				<input type="submit" name="update" class="btn btn-info" value="Update">
-				<button data-toggle="modal" type="button" data-target="#editRequest" id ="editModal" class="btn btn-warning"><i class="fa fa-refresh"></i> Edit Request</button>
-				<input type="submit" name="delete" class="btn btn-danger" value="Delete"><br>
+					<div style="margin-bottom: 1em;">
+						<input type="submit" name="update" class="btn btn-info" value="Update">
+						<button data-toggle="modal" type="button" data-target="#editRequest" id ="editModal" class="btn btn-warning"><i class="fa fa-refresh"></i> Edit Request</button>
+						<input type="submit" name="delete" class="btn btn-danger" value="Delete"><br>
+					</div>
 				
 				
 				<!--// MODAL BUTTONS -->
@@ -79,7 +88,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 								<div class="panel-heading">
 									<h3 class="panel-title">Incoming Requests -- awaiting pickup</h3>
 								</div>
-								<div class="panel-body">
+								<div class="panel-body table-responsive">
 									<table class="table table-hover" id="myTable">
 										<thead>
 											<tr><input type="checkbox" name="all" onclick="toggle(this)"  >Select All

@@ -3,7 +3,7 @@ session_start();
 include ("connect.php");
 
 //prevent going back after logging out!
-if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
+if (!isset($_SESSION['admin_id']) || (trim ($_SESSION['admin_id']) == '')){
 	
 	header("location: login.php");
 	?>
@@ -12,7 +12,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 	exit();
 }
 
-    $id=$_SESSION['userid'];
+    $id=$_SESSION['admin_id'];
 	$fname=$_SESSION['fname'];
 	$lname=$_SESSION['lname'];
 	$username=$_SESSION['username'];
@@ -62,6 +62,13 @@ if (is_array($_POST['id'])){
 	<!-- ICONS -->
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<style>
+		@media (max-width:400px) {
+			.col-md-12 {
+				padding: 1em 0em !important;
+			}
+		}
+	</style>
 </head>
 
 <body>
@@ -81,7 +88,7 @@ if (is_array($_POST['id'])){
 					
 				
 					<form action="" method="post" enctype="multipart/form-data">
-					<div class="box-body pull-right" style="align:right;">
+					<div class="box-body pull-right" style="align-items:right; margin-bottom: 1em;">
                      <input type="submit" class="btn btn-danger" value="Delete" name="delete">
 					</div><!-- /.box-body --><br>
 					
@@ -93,7 +100,7 @@ if (is_array($_POST['id'])){
 								<div class="panel-heading">
 									<h3 class="panel-title">All Orders (picked)</h3>
 								</div>
-								<div class="panel-body">
+								<div class="panel-body table-responsive">
 									<table class="table table-hover" id="myTable">
 										<thead>
 											<tr>

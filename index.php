@@ -300,7 +300,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 			window.scrollTo(0, 1);
 		}
 	</script>
-
+	<link rel="shortcut icon" href="images/lb_favicon.ico" type="image/x-icon">
 	<!-- Bootstrap Core CSS -->
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<!-- gallery css -->
@@ -664,9 +664,9 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<!-- copyright -->
-			<div class="fv3-contact cpy-right text-center pt-5">
-				<p>© 2018 LaundryBase. 
-					<a href="http://w3layouts.com" style="visibility:hidden;"> W3layouts.</a>All Rights Reserved
+			<div class="cpy-right text-center pt-5">
+				<p>© 2018 All rights reserved | Design by
+					<a href="http://w3layouts.com" style="color: #154c83;"> W3layouts.</a>
 				</p>
 			</div>
 			<!-- //copyright -->

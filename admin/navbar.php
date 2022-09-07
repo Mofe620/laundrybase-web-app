@@ -1,3 +1,11 @@
+<style>
+	@media (max-width:1024px) {
+		.btn-toggle-fullwidth {
+			transform: rotate(180deg);
+		}
+	}
+</style>
+
 <!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="brand">
@@ -104,7 +112,8 @@ function myFunction() {
 }
 </script>
 
-<script><!--hide notification-->
+<script>
+	//hide notification
 	 function hide(){
 		 document.getElementById("new").style.display='none';
 		 

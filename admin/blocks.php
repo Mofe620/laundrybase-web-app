@@ -3,7 +3,7 @@ session_start();
 include ("connect.php");
 
 //prevent going back after logging out!
-if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
+if (!isset($_SESSION['admin_id']) || (trim ($_SESSION['admin_id']) == '')){
 	
 	header("location: login.php");
 	?>
@@ -14,7 +14,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 
 
 
-    $id=$_SESSION['userid'];
+    $id=$_SESSION['admin_id'];
 	$fname=$_SESSION['fname'];
 	$lname=$_SESSION['lname'];
 	$username=$_SESSION['username'];
@@ -81,7 +81,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 								<div class="panel-heading">
 									<h3 class="panel-title">Laundry Blocks</h3>
 								</div>
-								<div class="panel-body">
+								<div class="panel-body table-responsive">
 									<table id="myTable" class="table table-striped">
 										<thead>
 											<tr>
@@ -266,26 +266,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 			   
 			   
 			   <!--//UPDATE BLOCK INFO-->
-				
-						<div class="col-md-4">
-							<!-- PANEL NO PADDING -->
-							<div class="panel">
-								<div class="panel-heading">
-									<h3 class="panel-title">Panel No Padding</h3>
-									<div class="right">
-										<button type="button" class="btn-toggle-collapse"><i class="lnr lnr-chevron-up"></i></button>
-										<button type="button" class="btn-remove"><i class="lnr lnr-cross"></i></button>
-									</div>
-								</div>
-								<div class="panel-body no-padding bg-primary text-center">
-									<div class="padding-top-30 padding-bottom-30">
-										<i class="fa fa-thumbs-o-up fa-5x"></i>
-										<h3>No Content Padding</h3>
-									</div>
-								</div>
-							</div>
-							<!-- END PANEL NO PADDING -->
-						</div>
+			
 					</div>
 				
 					

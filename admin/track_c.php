@@ -3,7 +3,7 @@ session_start();
 include ("connect.php");
 
 //prevent going back after logging out!
-if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
+if (!isset($_SESSION['admin_id']) || (trim ($_SESSION['admin_id']) == '')){
 	
 	header("location: login.php");
 	?>
@@ -12,7 +12,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 	exit();
 }
 
-    $id=$_SESSION['userid'];
+    $id=$_SESSION['admin_id'];
 	$fname=$_SESSION['fname'];
 	$lname=$_SESSION['lname'];
 	$username=$_SESSION['username'];
@@ -47,7 +47,13 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.css" />
 		
-	
+	<style>
+		@media (max-width:400px) {
+			.col-md-12 {
+				padding: 0em !important;
+			}
+		}
+	</style>
 </head>
 
 <body>
@@ -111,13 +117,14 @@ $(function(){
 							
 							
 							<form action="finish.php" method="post" enctype="multipart/form-data">
-							<div class="pull-right">
-							<input type="submit" class="btn btn-primary" name="finish" value="Return">
+							<div style="margin-top: 1.5em; margin-left: 1em;">
+								<input type="submit" class="btn btn-primary" name="finish" value="Return">
 							</div>
 							<br>
 							<!-- ORDER TABLE-->
 							
 						    <div class="col-md-12">
+							
 							<!-- TABLE HOVER -->
 							<div class="panel">
 								<div class="panel-heading">
@@ -132,7 +139,7 @@ $(function(){
 							    ?>
 									</h3>
 								</div>
-								<div class="panel-body">
+								<div class="panel-body table-responsive">
 									<table class="table table-hover" id="myTable" >
 										<thead>
 											<tr>

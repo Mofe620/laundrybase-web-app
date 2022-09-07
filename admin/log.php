@@ -31,9 +31,7 @@ if ($result->num_rows > 0) {
 		$_SESSION['admin_id']= $row['ID'];
 		$_SESSION['username']= $row['USERNAME'];
 		$_SESSION['email']= $row['EMAIL'];
-		
-		
-		
+		$_SESSION['pwd']= $password;
 		
 		header ("location: dashboard.php");
               die();

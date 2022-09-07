@@ -63,12 +63,12 @@ if ($service == "Wash and Fold"){ $sql = 'select  `W-F` from prices where `ITEMS
 										$u6 = $row['W-F'];
 										$p6 = (int)$u6 * (int)$children;
 										
-										if ($shirts != 0){ $c1 = $shirts."Shirts";}
-										if ($skirts != 0){ $c2 = $skirts."Skirts";}
-										if ($suits != 0){ $c3 = $suits."Suits";}
-										if ($blouses != 0){ $c4 = $blouses."Blouses";}
-										if ($trousers != 0){ $c5 = $trousers."Trousers";}
-										if ($children != 0){ $c6 = $children."Children Wears";}
+										if ($shirts != 0){ $c1 = $shirts."Shirts";} else { $c1 = "";};
+										if ($skirts != 0){ $c2 = $skirts."Skirts";} else { $c2 = "";};
+										if ($suits != 0){ $c3 = $suits."Suits";} else { $c3 = "";};
+										if ($blouses != 0){ $c4 = $blouses."Blouses";} else { $c4 = "";};
+										if ($trousers != 0){ $c5 = $trousers."Trousers";} else { $c5 = "";};
+										if ($children != 0){ $c6 = $children."Children Wears";} else { $c6 = "";};
 										
 									
  $price = (int)$p1 + (int)$p2 + (int)$p3 + (int)$p4 + (int)$p5 + (int)$p6; 
@@ -136,12 +136,12 @@ if ($service == "Only Iron"){ $sql = 'select  `IRON` from prices where `ITEMS` =
 										$u6 = $row['IRON'];
 										$p6 = (int)$u6 * (int)$children;
 										
-										if ($shirts != 0){ $c1 = $shirts."Shirts";}
-										if ($skirts != 0){ $c2 = $skirts."Skirts";}
-										if ($suits != 0){ $c3 = $suits."Suits";}
-										if ($blouses != 0){ $c4 = $blouses."Blouses";}
-										if ($trousers != 0){ $c5 = $trousers."Trousers";}
-										if ($children != 0){ $c6 = $children."Children Wears";}
+										if ($shirts != 0){ $c1 = $shirts."Shirts";} else { $c1 = "";};
+										if ($skirts != 0){ $c2 = $skirts."Skirts";} else { $c2 = "";};
+										if ($suits != 0){ $c3 = $suits."Suits";} else { $c3 = "";};
+										if ($blouses != 0){ $c4 = $blouses."Blouses";} else { $c4 = "";};
+										if ($trousers != 0){ $c5 = $trousers."Trousers";} else { $c5 = "";};
+										if ($children != 0){ $c6 = $children."Children Wears";} else { $c6 = "";};
 										
 									
  $price = (int)$p1 + (int)$p2 + (int)$p3 + (int)$p4 + (int)$p5 + (int)$p6; 
@@ -214,12 +214,12 @@ if ($service == "Dry Clean"){ $sql = 'select  `D-C` from prices where `ITEMS` = 
 										$u6 = $row['D-C'];
 										$p6 = (int)$u6 * (int)$children;
 										
-										if ($shirts != 0){ $c1 = $shirts."Shirts";}
-										if ($skirts != 0){ $c2 = $skirts."Skirts";}
-										if ($suits != 0){ $c3 = $suits."Suits";}
-										if ($blouses != 0){ $c4 = $blouses."Blouses";}
-										if ($trousers != 0){ $c5 = $trousers."Trousers";}
-										if ($children != 0){ $c6 = $children."Children Wears";}
+										if ($shirts != 0){ $c1 = $shirts."Shirts";} else { $c1 = "";};
+										if ($skirts != 0){ $c2 = $skirts."Skirts";} else { $c2 = "";};
+										if ($suits != 0){ $c3 = $suits."Suits";} else { $c3 = "";};
+										if ($blouses != 0){ $c4 = $blouses."Blouses";} else { $c4 = "";};
+										if ($trousers != 0){ $c5 = $trousers."Trousers";} else { $c5 = "";};
+										if ($children != 0){ $c6 = $children."Children Wears";} else { $c6 = "";};
 										
 									
  $price = (int)$p1 + (int)$p2 + (int)$p3 + (int)$p4 + (int)$p5 + (int)$p6; 

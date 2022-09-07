@@ -1,9 +1,10 @@
 <?php
 session_start();
+include ("connect.php");
 
 
 //prevent going back after logging out!
-if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
+if (!isset($_SESSION['admin_id']) || (trim ($_SESSION['admin_id']) == '')){
 	
 	header("location: login.php");
 	?>
@@ -14,21 +15,16 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 
 
 
-    $id=$_SESSION['userid'];
+    $id=$_SESSION['admin_id'];
 	$fname=$_SESSION['fname'];
 	$lname=$_SESSION['lname'];
 	$username=$_SESSION['username'];
 	$email=$_SESSION['email'];
 	$pnumber=$_SESSION['pnumber'];
+	$pwd = $_SESSION['pwd'];
 
-unset($_SESSION['userid']);
-
-
-
-
-
-
-
+// UNSET SESSION FOR Lockscreen
+unset($_SESSION['admin_id']);
 
 ?>
 <!doctype html>
@@ -59,6 +55,10 @@ unset($_SESSION['userid']);
 	<div class="row"><br><br><br><br><br><br><br><br><br>
 	                      <div class="col-md-4"></div>
 						<div class="col-md-4">
+							<?php 
+								$prev_page  = $_SERVER['HTTP_REFERER'];
+								$pieces = explode("/", $prev_page);
+							?>
 							<!-- PANEL DEFAULT -->
 							<div class="panel">
 								<div class="panel-heading">
@@ -70,11 +70,12 @@ unset($_SESSION['userid']);
 							    <h2 class="name"><?php echo $fname; ?> <?php echo $lname; ?></h2>
 						        </div>
 								
-								<form action="">
-							    <div class="input-group">
-								<input type="password" class="form-control" name="password" placeholder="Enter your password ...">
-								<span class="input-group-btn"><input type="submit" name="continue" class="btn btn-primary"><i class="fa fa-arrow-right"></i></button></span> 
-							    </div>
+								<form action="lockscreen_action.php" method="POST" enctype="multipart/form-data">
+									<div class="input-group">
+										<input type="text" hidden name="prev_page" value="<?php echo end($pieces) ?>">
+										<input type="password" class="form-control" name="password" placeholder="Enter your password ...">
+										<span class="input-group-btn"><input type="submit" name="continue" class="btn btn-primary"><i class="fa fa-arrow-right"></i></button></span> 
+									</div>
 						        </form>
 								
 							</div>

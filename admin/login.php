@@ -28,11 +28,11 @@ include ("connect.php");
 <body>
 	<!-- WRAPPER -->
 	<div id="wrapper">
-	
 	<div class="row"><br><br><br><br><br><br><br><br><br>
 	    <div class="col-md-4"></div>
 						<div class="col-md-4">
 							<!-- PANEL DEFAULT -->
+							<h1 class="text-center" style="margin-top: -2em;">LaundryBase Admin</h1>
 							<div class="panel">
 								<div class="panel-heading">
 									<h4 class="lead">Login to your account</h4>
@@ -46,7 +46,10 @@ include ("connect.php");
 								</div>
 								<div class="form-group">
 									<label for="signin-password" class="control-label sr-only">Password</label>
-									<input type="password" class="form-control" name="password" id="signin-password"  placeholder="Password">
+									<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+										<input type="password" class="form-control" name="password" id="signin-password"  placeholder="Admin Password">
+								    </div>
 								</div>
 								<div class="form-group clearfix">
 									<label class="fancy-checkbox element-left">
@@ -64,7 +67,7 @@ include ("connect.php");
 								?>
 								<input type="submit" name="login" class="btn btn-primary btn-lg btn-block" value="LOGIN">
 								<div class="bottom">
-									<span class="helper-text"><i class="fa fa-lock"></i> <a href="#">Forgot password?</a></span>
+									<span class="helper-text"><i class="fa fa-question-circle"></i> <a href="#">Forgot password?</a></span>
 								</div>
 								
 								</div>

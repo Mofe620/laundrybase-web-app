@@ -1,4 +1,7 @@
 /*services*/
+h1 {
+    color: #000066;
+}
 .r1b {
     background: url(../images/g9.jpg)no-repeat;
     -webkit-background-size: cover;
@@ -39,6 +42,8 @@
 .r3a {
     background-color: #8fff33;
     padding: 3em;
+    color: #a0361b;
+    font-weight: 700;
 }
 
 .row {

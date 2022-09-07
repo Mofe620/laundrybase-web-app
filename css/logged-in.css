@@ -25,7 +25,7 @@ thead {
     color: #0D898D;
 }
 tbody {
-    color: #0D898D;
+    color: #67827E;
 }
 @media (max-width: 1440px) {
     #bootstrap-overrides .row-2 {
@@ -53,8 +53,8 @@ tbody {
     }
     div.hero {
         background-image: url(../images/okay/g2.jpg);
-        background-size: cover;
-        background-position: 20% 0%;
+        background-size:cover;
+        background-position: 50% 0%;
         background-attachment: fixed;
     }
     .estimate-btn-group {

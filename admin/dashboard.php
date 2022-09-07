@@ -133,7 +133,7 @@ if (!isset($_SESSION['admin_id']) || (trim ($_SESSION['admin_id']) == '')){
 										<button type="button" class="btn-remove"><i class="lnr lnr-cross"></i></button>
 									</div>
 								</div>
-								<div class="panel-body no-padding">
+								<div class="panel-body no-padding table-responsive">
 									<table class="table table-striped">
 										<thead>
 											<tr>

@@ -3,7 +3,7 @@ session_start();
 include ("connect.php");
 
 //prevent going back after logging out!
-if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
+if (!isset($_SESSION['admin_id']) || (trim ($_SESSION['admin_id']) == '')){
 	
 	header("location: login.php");
 	?>
@@ -12,7 +12,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 	exit();
 }
 
-    $id=$_SESSION['userid'];
+    $id=$_SESSION['admin_id'];
 	$fname=$_SESSION['fname'];
 	$lname=$_SESSION['lname'];
 	$username=$_SESSION['username'];
@@ -93,7 +93,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 									
 									</h3>
 								</div>
-								<div class="panel-body">
+								<div class="panel-body table-responsive">
 									<table class="table table-hover" id="myTable">
 										<thead>
 											<tr><input type="checkbox" name="all" onclick="toggle(this)">Select All

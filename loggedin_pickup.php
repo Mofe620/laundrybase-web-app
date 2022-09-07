@@ -33,7 +33,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 			window.scrollTo(0, 1);
 		}
 	</script>
-
+	<link rel="shortcut icon" href="images/lb_favicon.ico" type="image/x-icon">
 	<!-- Bootstrap Core CSS -->
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<!-- gallery css -->
@@ -122,7 +122,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<!-- TABLE HOVER -->
 				<div class="panel">
 					<div class="panel-heading text-center w-100">
-						<h3 class="panel-title my-3">Your Previous Laundry Orders</h3>
+						<h3 class="panel-title my-3">Your Laundry Orders</h3>
 					</div>
 					<div class="panel-body table-responsive my-3">
 						<table class="table table-hover" id="myTable">
@@ -163,8 +163,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 								// output data of each row
 
 								while ($row = mysqli_fetch_assoc($result)) {
+									$status = $row['STATUS'];
 							?>
-
 									<tbody>
 										<tr>
 											<td><?php echo ++$i; ?></td>
@@ -177,7 +177,13 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 											<td><?php echo $row['PICKUP']; ?></td>
 											<td><?php echo $row['RETURN']; ?></td>
 											<td>N<?php echo $row['PAYMENT']; ?></td>
-											<td style="text-align:center;"><?php echo $row['STATUS']; ?></td>
+											<td style="text-align:center;"><?php 
+												     if ($status == 0){echo '<b>'."Awaiting Pickup".'</b>';}
+												     if ($status == 1){echo '<b>'."Picked".'</b>';}
+													 if ($status == 2){echo '<b>'."Assigned".'<b>';}
+												     if ($status == 3){echo '<b>'."Retrieved".'<b>';}
+													 if ($status == 4){echo '<b>'."Completed".'<b>';}
+												    ?></td>
 										</tr>
 									</tbody>
 							<?php
@@ -213,7 +219,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 								<table class="table table-hover table-bordered price-table">
 									<thead>
 										<tr>
-											<th>Items</th>
+											<th>Clothing Items</th>
 											<th>Wash and Fold</th>
 											<th>Iron Only</th>
 											<th>Dry Cleaning</th>
@@ -243,7 +249,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 													<td><span class="text-info"><?php echo $row['ITEMS']; ?></span></td>
 													<td><span class="text-primary">N<?php echo $row['W-F']; ?></span></td>
 													<td><span class="text-warning">N<?php echo $row['IRON']; ?></span></td>
-													<td><span class="text-primary">N<?php echo $row['D-C']; ?></span></td>
+													<td><span class="text-info">N<?php echo $row['D-C']; ?></span></td>
 												</tr>
 											</tbody>
 									<?php
@@ -283,7 +289,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<!--ITEM 1-->
 				<div class="col-sm-4">
 					<div class="card display"><br><br>
-						<div><img src="images/c2.jpg" class="" width="50%" height="50%"></div>
+						<div><img src="images/bl3.jpg" class="" width="50%" height="50%"></div>
 
 						<span class="item-desc">Women Blouses</span>
 
@@ -353,7 +359,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
 
 						<p class="quantity">
-							<button class="btn btn-danger" id="minus1" onclick="minus1()">-</button><span id="input1">0</span> added
+							<button class="btn btn-danger" id="minus1" onclick="minus1()">-</button> <span id="input1">0</span> added
 							<button class="btn btn-info" id="plus1" onclick="plus1()">+</button>
 						</p>
 					</div>
@@ -362,7 +368,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<!--ITEM 4-->
 				<div class="col-sm-4">
 					<div class="card"><br><br>
-						<div><img src="images/w1.jpg" class="" width="50%" height="50%"></div>
+						<div><img src="images/s2.jfif" class="" width="50%" height="50%"></div>
 						<span class="item-desc">Skirts</span>
 						<p class="price">N<span id="unit2"><?php $sql = "SELECT * from prices where `ITEMS` = 'Skirts' ";
 															$result = mysqli_query($conn, $sql);
@@ -400,7 +406,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
 
 						<p class="quantity">
-							<button class="btn btn-danger" id="minus3" onclick="minus3()">-</button><span id="input3">0</span> added
+							<button class="btn btn-danger" id="minus3" onclick="minus3()">-</button> <span id="input3">0</span> added
 							<button class="btn btn-info" id="plus3" onclick="plus3()">+</button>
 						</p>
 					</div>
@@ -409,7 +415,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<!--ITEM 6-->
 				<div class="col-sm-4">
 					<div class="card"><br><br>
-						<div><img src="images/g5.jpg" class="" width="50%" height="50%"></div>
+						<div><img src="images/y2.jpg" class="" width="50%" height="50%"></div>
 						<span class="item-desc">Suits and Blazers</span>
 						<p class="price">N<span id="unit4"><?php $sql = "SELECT * from prices where `ITEMS` = 'Suits and Blazers' ";
 															$result = mysqli_query($conn, $sql);

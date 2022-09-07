@@ -16,7 +16,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 			window.scrollTo(0, 1);
 		}
 	</script>
-
+	<link rel="shortcut icon" href="images/lb_favicon.ico" type="image/x-icon">
 	<!-- Bootstrap Core CSS -->
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<!-- gallery css -->

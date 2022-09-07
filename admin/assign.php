@@ -3,7 +3,7 @@ session_start();
 include ("connect.php");
 
 //prevent going back after logging out!
-if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
+if (!isset($_SESSION['admin_id']) || (trim ($_SESSION['admin_id']) == '')){
 	
 	header("location: login.php");
 	?>
@@ -14,7 +14,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 
 
 
-    $id=$_SESSION['userid'];
+    $id=$_SESSION['admin_id'];
 	$fname=$_SESSION['fname'];
 	$lname=$_SESSION['lname'];
 	$username=$_SESSION['username'];
@@ -73,14 +73,14 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 						<form name="table" action="assign_order2.php" method="post" enctype="multipart/form-data">	
 						<!-- UNTAGGED TABLE-->
 							
-						    <div class="col-md-6">
-							<button type="button" data-toggle="modal"  data-target="#assignOrder" class="btn btn-warning"><i class="fa fa-refresh"></i> Assign Orders</button>
+						    <div class="col-md-7">
+							<button type="button" style="margin-bottom: 1em;" data-toggle="modal"  data-target="#assignOrder" class="btn btn-warning"><i class="fa fa-refresh"></i> Assign Orders</button>
 							<!-- TABLE HOVER -->
 							<div class="panel">
 								<div class="panel-heading">
 									<h3 class="panel-title">Unassigned Orders</h3><br>
 								</div>
-								<div class="panel-body">
+								<div class="panel-body table-responsive">
 									<table class="table table-hover" id="myTable" >
 										<thead>
 											<tr><input type="checkbox" name="all" onclick="toggle(this)">Select All<br>

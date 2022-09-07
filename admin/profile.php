@@ -3,7 +3,7 @@ session_start();
 include ("connect.php");
 
 //prevent going back after logging out!
-if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
+if (!isset($_SESSION['admin_id']) || (trim ($_SESSION['admin_id']) == '')){
 	
 	header("location: login.php");
 	?>
@@ -14,7 +14,7 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 
 
 
-    $id=$_SESSION['userid'];
+    $id=$_SESSION['admin_id'];
 	$fname=$_SESSION['fname'];
 	$lname=$_SESSION['lname'];
 	$username=$_SESSION['username'];
@@ -298,7 +298,8 @@ if (!isset($_SESSION['userid']) || (trim ($_SESSION['userid']) == '')){
 	<script src="assets/scripts/klorofil-common.js"></script>
 	
 	
-	<script><!--hide notification-->
+	<script>
+	//hide notification
 	 function hide(){
 		 document.getElementById("new").style.display='none';
 		 
